@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# BAR-STREET PROJECT
+
+The design was provided by the agency [Конструктивные решения](https://www.cosmos-web.ru/) for the purpose of completing a test task.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
