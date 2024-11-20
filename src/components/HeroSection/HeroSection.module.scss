@@ -3,74 +3,77 @@
 .hero {
   display: flex;
   justify-content: center;
-  position: relative;
   border-radius: 50px;
   background-color: $color-tolopea;
   color: $color-default-white;
   padding: 87px 0 74px;
   width: calc(100% - 80px);
+  overflow: hidden;
 
   .container {
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 30px;
-  }
 
-  .text {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    padding: 20px 0;
+    .text {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      padding: 20px 0;
 
-    h1 {
-      font-size: 50px;
-      font-weight: 500;
-      line-height: 50px;
-      letter-spacing: -0.6px;
-      color: $color-blackcurran;
+      h1 {
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 50px;
+        letter-spacing: -0.6px;
+        color: $color-blackcurran;
+        text-align: center;
+        margin: 0;
+        z-index: 111;
+      }
+
+      .titleBackground {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+
+    p {
       text-align: center;
+      font-size: 30px;
+      line-height: 30px;
+      letter-spacing: -0.6px;
       margin: 0;
-      z-index: 111;
     }
 
-    .titleBackground {
+    .ctaButton {
+      background-color: $color-deep-pink;
+      border: none;
+      padding: 15px 78px;
+      color: $color-default-white;
+      cursor: pointer;
+      border-radius: 16px;
+      font-size: 20px;
+      line-height: 31px;
+    }
+
+    .orangeCocktail {
       position: absolute;
-      top: 0;
-      left: 50%;
-      transform: translateX(-50%);
+      bottom: -116px;
+      left: -410px;
+      // z-index: 111;
     }
-  }
 
-  p {
-    text-align: center;
-    font-size: 30px;
-    line-height: 30px;
-    letter-spacing: -0.6px;
-    margin: 0;
-  }
-
-  .ctaButton {
-    background-color: $color-deep-pink;
-    border: none;
-    padding: 15px 78px;
-    color: $color-default-white;
-    cursor: pointer;
-    border-radius: 16px;
-    font-size: 20px;
-    line-height: 31px;
-  }
-
-  .orangeCocktail {
-    position: absolute;
-    bottom: -42px;
-    left: 150px;
-  }
-
-  .greenCocktail {
-    position: absolute;
-    bottom: 0;
-    right: 41px;
+    .greenCocktail {
+      position: absolute;
+      bottom: -74px;
+      right: -532px;
+      // z-index: 111;
+    }
   }
 }

@@ -6,8 +6,8 @@ import titleBackground from '../../assets/images/main-title.svg'
 export const HeroSection = () => {
   return (
     <section className={styles.hero}>
-      <img src={orangeCocktail} alt='Cocktail' className={styles.orangeCocktail} />
       <div className={styles.container}>
+        <img src={orangeCocktail} alt='Cocktail' className={styles.orangeCocktail} />
         <div className={styles.text}>
           <h1>
             Мобильный <br />
@@ -21,8 +21,8 @@ export const HeroSection = () => {
           коктейлями на ваше мероприятие.
         </p>
         <button className={styles.ctaButton}>Оставить заявку</button>
+        <img src={greenCocktail} alt='Cocktail' className={styles.greenCocktail} />
       </div>
-      <img src={greenCocktail} alt='Cocktail' className={styles.greenCocktail} />
     </section>
   )
 }
