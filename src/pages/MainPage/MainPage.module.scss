@@ -1,0 +1,9 @@
+@import '../../styles/variables.scss';
+
+.mainPage {
+  background-color: $color-white-smoke;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

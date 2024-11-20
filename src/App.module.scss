@@ -1,0 +1,14 @@
+@import './styles/variables.scss';
+
+@font-face {
+  font-family: 'Graphik LC Web Regular';
+  src: url('../public/fonts/Graphik_LC_Web/graphiklcweb_medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+.app {
+  font-family: $ff-graphik;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+}
