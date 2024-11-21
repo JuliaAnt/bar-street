@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './CocktailList.module.scss'
+import sharedStyles from '../../styles/shared.module.scss'
 import whiteChill from '../../assets/images/white-chill.svg'
 import antifreeze from '../../assets/images/antifreeze.svg'
 import cart from '../../assets/icons/cart.svg'
@@ -44,7 +45,7 @@ export const CocktailList: React.FC = () => {
 
   return (
     <div className={styles.cocktailList}>
-      <h2 className={styles.title}>Коктейльная карта</h2>
+      <h2 className={sharedStyles.title}>Коктейльная карта</h2>
       <div className={styles.grid}>
         {cocktails.map((cocktail) => (
           <div key={cocktail.id} className={styles.card}>

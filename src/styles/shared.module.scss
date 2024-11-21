@@ -1,0 +1,11 @@
+@import './variables.scss';
+
+.title {
+  color: $color-tolopea;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 55px;
+  letter-spacing: 0.01em;
+  margin: 0;
+  margin-bottom: 24px;
+}
