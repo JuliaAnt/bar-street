@@ -1,10 +1,16 @@
 {
   "files": {
-    "main.css": "/bar-street/static/css/main.08b30bc6.css",
-    "main.js": "/bar-street/static/js/main.ee720218.js",
+    "main.css": "/bar-street/static/css/main.b0f06a27.css",
+    "main.js": "/bar-street/static/js/main.0f99ba58.js",
     "static/js/453.099c56b0.chunk.js": "/bar-street/static/js/453.099c56b0.chunk.js",
+    "static/media/gallery-img5.png": "/bar-street/static/media/gallery-img5.58022ae8116285df83d4.png",
+    "static/media/gallery-img1.png": "/bar-street/static/media/gallery-img1.472959e6fa2a5a1e22bb.png",
+    "static/media/gallery-img6.png": "/bar-street/static/media/gallery-img6.fe22051c002c171f236f.png",
     "static/media/orange-cocktail.svg": "/bar-street/static/media/orange-cocktail.c5471693ef803e090328fa87b2f12f01.svg",
     "static/media/green-cocktail.svg": "/bar-street/static/media/green-cocktail.e34e752e4b1d49662fb63c6cdbbf49bc.svg",
+    "static/media/gallery-img2.png": "/bar-street/static/media/gallery-img2.c89c3304b8e7cec53e00.png",
+    "static/media/gallery-img3.png": "/bar-street/static/media/gallery-img3.a7b1ec96e355c53da208.png",
+    "static/media/gallery-img4.png": "/bar-street/static/media/gallery-img4.2d6779d0a84349aa4f3d.png",
     "static/media/graphiklcweb_medium.ttf": "/bar-street/static/media/graphiklcweb_medium.5f12d650b585007e2ac0.ttf",
     "static/media/white-chill.svg": "/bar-street/static/media/white-chill.2e931abdc16962092ecf12b877e6a49e.svg",
     "static/media/antifreeze.svg": "/bar-street/static/media/antifreeze.5667dbaf0094b71160542c92e86632ba.svg",
@@ -26,12 +32,12 @@
     "static/media/dark-theme.svg": "/bar-street/static/media/dark-theme.22c0b73e625f7ec3dd22a4916714e985.svg",
     "static/media/plus.svg": "/bar-street/static/media/plus.eb920a834be058eb1839e5a0cc7c2de7.svg",
     "static/media/minus.svg": "/bar-street/static/media/minus.6a6ab1d25288f919f0ac18e70e64343a.svg",
-    "main.08b30bc6.css.map": "/bar-street/static/css/main.08b30bc6.css.map",
-    "main.ee720218.js.map": "/bar-street/static/js/main.ee720218.js.map",
+    "main.b0f06a27.css.map": "/bar-street/static/css/main.b0f06a27.css.map",
+    "main.0f99ba58.js.map": "/bar-street/static/js/main.0f99ba58.js.map",
     "453.099c56b0.chunk.js.map": "/bar-street/static/js/453.099c56b0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08b30bc6.css",
-    "static/js/main.ee720218.js"
+    "static/css/main.b0f06a27.css",
+    "static/js/main.0f99ba58.js"
   ]
 }
