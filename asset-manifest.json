@@ -1,16 +1,37 @@
 {
   "files": {
-    "main.css": "/bar-street/static/css/main.f855e6bc.css",
-    "main.js": "/bar-street/static/js/main.56bedabd.js",
+    "main.css": "/bar-street/static/css/main.08b30bc6.css",
+    "main.js": "/bar-street/static/js/main.ee720218.js",
     "static/js/453.099c56b0.chunk.js": "/bar-street/static/js/453.099c56b0.chunk.js",
-    "static/media/logo.svg": "/bar-street/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/orange-cocktail.svg": "/bar-street/static/media/orange-cocktail.c5471693ef803e090328fa87b2f12f01.svg",
+    "static/media/green-cocktail.svg": "/bar-street/static/media/green-cocktail.e34e752e4b1d49662fb63c6cdbbf49bc.svg",
+    "static/media/graphiklcweb_medium.ttf": "/bar-street/static/media/graphiklcweb_medium.5f12d650b585007e2ac0.ttf",
+    "static/media/white-chill.svg": "/bar-street/static/media/white-chill.2e931abdc16962092ecf12b877e6a49e.svg",
+    "static/media/antifreeze.svg": "/bar-street/static/media/antifreeze.5667dbaf0094b71160542c92e86632ba.svg",
+    "static/media/usa-flag.svg": "/bar-street/static/media/usa-flag.bb1ee2a91e3d254112c1a8f731c2f439.svg",
+    "static/media/mir-icon.svg": "/bar-street/static/media/mir-icon.7ffcdf8b365e6b80f1bd61d64355f49c.svg",
+    "static/media/mc-icon.svg": "/bar-street/static/media/mc-icon.3f1545a7025300ed7a8712cc02992347.svg",
+    "static/media/light-theme.svg": "/bar-street/static/media/light-theme.073b90b7c4b8ab966eeff921072e2849.svg",
+    "static/media/visa-icon.svg": "/bar-street/static/media/visa-icon.fba69320d018612eb0ac7e10cda2e9a8.svg",
+    "static/media/cart.svg": "/bar-street/static/media/cart.e5f6c45a70e343957e7a0d600bc80de5.svg",
+    "static/media/logo.svg": "/bar-street/static/media/logo.66301816d9746016c7b3f38bd3acfea7.svg",
+    "static/media/vk-icon.svg": "/bar-street/static/media/vk-icon.9993047c525872b724867c13098eaf4d.svg",
+    "static/media/inst-icon.svg": "/bar-street/static/media/inst-icon.6b1470f9f32085fa5f577bf8bbb590d3.svg",
+    "static/media/services-icon.svg": "/bar-street/static/media/services-icon.0e2f5eded2c6f85de3752cac3de02cee.svg",
+    "static/media/search.svg": "/bar-street/static/media/search.bc09c71925dbcf1bce9d37016f666e76.svg",
     "index.html": "/bar-street/index.html",
-    "main.f855e6bc.css.map": "/bar-street/static/css/main.f855e6bc.css.map",
-    "main.56bedabd.js.map": "/bar-street/static/js/main.56bedabd.js.map",
+    "static/media/fb-icon.svg": "/bar-street/static/media/fb-icon.10813e6621fff406a86b27ba155c7a76.svg",
+    "static/media/main-title.svg": "/bar-street/static/media/main-title.b8a5ff7510920de6a5a02672b77c727c.svg",
+    "static/media/arrow.svg": "/bar-street/static/media/arrow.8946d29ede63d5863716d9d379a5b0d7.svg",
+    "static/media/dark-theme.svg": "/bar-street/static/media/dark-theme.22c0b73e625f7ec3dd22a4916714e985.svg",
+    "static/media/plus.svg": "/bar-street/static/media/plus.eb920a834be058eb1839e5a0cc7c2de7.svg",
+    "static/media/minus.svg": "/bar-street/static/media/minus.6a6ab1d25288f919f0ac18e70e64343a.svg",
+    "main.08b30bc6.css.map": "/bar-street/static/css/main.08b30bc6.css.map",
+    "main.ee720218.js.map": "/bar-street/static/js/main.ee720218.js.map",
     "453.099c56b0.chunk.js.map": "/bar-street/static/js/453.099c56b0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.56bedabd.js"
+    "static/css/main.08b30bc6.css",
+    "static/js/main.ee720218.js"
   ]
 }
