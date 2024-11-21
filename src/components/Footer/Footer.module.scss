@@ -1,0 +1,147 @@
+@import '../../styles/variables.scss';
+
+.footer {
+  background-color: $color-tolopea;
+  color: $color-default-white;
+  padding: 72px 0 52px;
+  border-radius: 30px 30px 0 0;
+  width: 100%;
+
+  //   a {
+  //     text-decoration: none;
+  //     color: $color-deep-pink;
+
+  //     &:hover {
+  //       text-decoration: underline;
+  //     }
+  //   }
+}
+
+.container {
+  max-width: 1238px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  gap: 21px;
+}
+
+.topLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+
+    .link {
+      font-size: 18px;
+      text-decoration: none;
+      color: $color-deep-pink;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .footerBottom {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 16px;
+
+    p {
+      margin: 0;
+    }
+
+    .marginBottom {
+      margin-bottom: 9px;
+    }
+
+    .policyLink {
+      text-decoration: underline;
+      color: $color-default-white;
+    }
+  }
+}
+
+.contactInfoWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactInfo {
+  display: flex;
+  //   flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 31px;
+  margin-bottom: 32px;
+
+  .contactBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    .bold {
+      font-weight: 500;
+      color: $color-butterfly-bush;
+      font-size: 18px;
+      text-wrap: nowrap;
+      line-height: 22.5px;
+      letter-spacing: 0.01em;
+      margin: 0;
+      margin-bottom: 8px;
+    }
+
+    .contactText {
+      font-size: 20px;
+      line-height: 25px;
+      margin: 0;
+      text-wrap: nowrap;
+    }
+
+    .leftPadding {
+      padding-left: 25px;
+    }
+  }
+
+  .socialLinks,
+  .cardIcons {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+
+    .socialLink {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      color: $color-deep-pink;
+      border-radius: 50%;
+      background-color: $color-paua;
+      min-width: 45px;
+      min-height: 45px;
+    }
+  }
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+
+  .callbackButton {
+    background-color: $color-deep-pink;
+    color: $color-default-white;
+    padding: 18px 89px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 20px;
+
+    &:hover {
+      background-color: #ff5a85;
+    }
+  }
+}

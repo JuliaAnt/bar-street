@@ -1,0 +1,167 @@
+@import '../../styles/variables.scss';
+
+.cocktailList {
+  font-family: $ff-graphik;
+  padding: 0 40px;
+}
+
+.title {
+  color: $color-tolopea;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 55px;
+  letter-spacing: 0.01em;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.card {
+  position: relative;
+  border-radius: 8px;
+  padding: 17px 10px 25px;
+  background-color: $color-default-white;
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.imageWrapper {
+  text-align: center;
+  position: relative;
+  margin-bottom: 14px;
+}
+
+.image {
+  height: 172px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.link {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  color: #17103f;
+  font-size: 20px;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: #ff4173;
+  }
+}
+
+.info {
+  margin-bottom: 20px;
+  color: $color-default-black;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+
+  p {
+    margin: 0;
+  }
+}
+
+.details {
+  font-size: 14px;
+  color: $color-gray;
+  //   margin-bottom: 16px;
+  white-space: pre-wrap;
+
+  p {
+    margin: 0;
+  }
+
+  .alcohol {
+    font-size: 18px;
+    color: $color-default-black;
+    font-weight: 500;
+    line-height: 27px;
+  }
+
+  .volume {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 5px;
+  }
+
+  .ingredients {
+    font-size: 16px;
+    line-height: 19.2px;
+    color: $color-default-black;
+  }
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+
+  .button {
+    background-color: $color-transparent;
+    color: $color-tolopea;
+    // width: 32px;
+    // height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    border: none;
+
+    &:hover {
+      background-color: #2e246f;
+    }
+  }
+
+  .quantityValue {
+    font-size: 18px;
+    color: $color-default-black;
+    margin: 0 8px;
+  }
+}
+
+.cartButton {
+  background-color: $color-tolopea;
+  color: $color-default-white;
+  padding: 5px 21px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  border: none;
+
+  &:hover {
+    background-color: #2e246f;
+  }
+}
+
+.showMore {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.showMoreButton {
+  background-color: $color-transparent;
+  border: 1px solid $color-tolopea;
+  color: $color-tolopea;
+  padding: 11px 94px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  font-size: 20px;
+
+  &:hover {
+    background-color: #f4f4f4;
+  }
+}
