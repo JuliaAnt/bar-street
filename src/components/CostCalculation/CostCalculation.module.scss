@@ -1,0 +1,52 @@
+@import '../../styles/variables.scss';
+
+.costCalculationWrapper {
+  padding: 0 40px;
+  color: $color-default-white;
+
+  .backgroundColor {
+    background: linear-gradient(90deg, $color-razzmatazz 0%, $color-deep-pink 100%);
+    border-radius: 60px;
+
+    .backgroundImage {
+      background: no-repeat url('../../assets/images/cost-calculation-vector.svg');
+      padding: 44px 0 0;
+      border-radius: 60px;
+
+      .subTitle {
+        margin: 0;
+        margin-bottom: 20px;
+        font-size: 44px;
+        line-height: 55px;
+        letter-spacing: 0.01em;
+        text-align: center;
+      }
+
+      .text {
+        margin: 0;
+        font-size: 22px;
+        line-height: 27.5px;
+        letter-spacing: 0.01em;
+        text-align: center;
+      }
+
+      .imgButtonContainer {
+        min-height: 311px;
+        background: no-repeat url('../../assets/images/cost-calculation-img.svg') center top;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+
+        .calculateButton {
+          margin-bottom: 21px;
+          border: none;
+          border-radius: 16px;
+          background-color: $color-tolopea;
+          color: $color-default-white;
+          font: inherit;
+          padding: 18px 36px;
+        }
+      }
+    }
+  }
+}
